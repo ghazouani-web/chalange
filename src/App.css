@@ -1,0 +1,122 @@
+body {
+  font-family: "Rasa", serif;
+  font-weight: 300;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+button {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text-important {
+  color: #a7bea9;
+  font-size: 45px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/*header > ul */
+.navmenu {
+  list-style: none;
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+.avatar {
+  border-radius: 50%;
+}
+
+
+/*Projects  */
+#projects {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.168);
+}
+#projects h2 {
+  text-align: center;
+}
+
+/*.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}*/
+
+.project-card {
+  cursor: pointer;
+  height:400px;
+  width: 300px;
+  /* margin : top/bottom  left/right  */
+  margin-top: 100px ;
+  margin-bottom: 10px ;
+  margin-right: 10px ;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+}
+.image-card {
+  cursor: pointer;
+  height:200px;
+  width: 300px;}
+
+.project-card:hover {
+  background-color: #a7bea9;
+  transform: translateY(-4px);
+}
+
+.project-card a {
+  color: rgb(61, 170, 221);
+  text-decoration: underline;
+}
+
+/*.project-card p {
+  padding: 10px;
+}*/
+
+/*Contact me  */
+
+
+/*Footer*/
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+  
+}
